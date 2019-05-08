@@ -1,0 +1,861 @@
+@import "setup.scss";
+@import "nav.scss";
+
+// Variables
+
+$green: #555f02;
+$yellow: #ffc600;
+$white: #fafffe;
+$brown: #1e140e;
+$charcoal: #262725;
+$D:'Dokdo', cursive;
+$L:'Lato', sans-serif;
+
+
+// Mixins
+
+
+
+// Styles
+
+.burger-check {
+    visibility: hidden;
+}
+button {
+    background: $green;
+    color: $white;
+    font-family: $D;
+    padding: 5px;
+    font-size: 30px;
+    border: none;
+    width: 200px;
+}
+
+.index {
+  background-image: url("images/index-header.jpg");
+ background-size: cover;
+ background-position: 95% 45%;
+ min-height: 100vh;
+}
+
+.contain {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+}
+
+.more {
+    padding-top: 5rem;
+    width: 50%;
+}
+.more h3 {
+    color: $white;
+    font-family: $L;
+    font-size: 45px;
+    font-weight: 300;
+}
+.more h4 {
+   font-family: $D;
+   color: $yellow;
+   font-size: 76px;
+   padding: 0;
+    
+}
+
+.image {
+    width: 50%;
+
+}
+.image img {
+      position: relative;
+    bottom: -5rem;
+}
+
+.quadrant {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1%;
+    justify-items: center;
+
+}
+
+.one,
+.threes, {
+    width: 50%;
+}
+
+.two,
+.four {
+    width: 37%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.four h2,{
+    text-align: right;
+}
+.four button {
+    position: relative;
+    bottom: 0;
+    left: 60%;
+}
+
+.one  {
+    position: relative;
+    top: -3.5rem;
+    left: -5.5rem;
+
+}
+
+.one img {
+    -webkit-box-shadow: 38px 41px 0px -26px rgba(255,198,0,1);
+-moz-box-shadow: 38px 41px 0px -26px rgba(255,198,0,1);
+box-shadow: 38px 41px 0px -26px rgba(255,198,0,1);
+}
+
+
+.threes {
+    position: relative;
+    bottom: -5rem;
+    right: -1.5rem;
+}
+
+.threes img {
+    width: 95%;
+    -webkit-box-shadow: -40px 41px 0px -26px rgba(255,198,0,1);
+-moz-box-shadow: -40px 41px 0px -26px rgba(255,198,0,1);
+box-shadow: -40px 41px 0px -26px rgba(255,198,0,1);
+}
+
+// continue to add styles
+
+
+.blog {
+background-image: url("images/nav-two.jpg");
+ background-size: cover;
+ background-position: center center;
+ min-height: 100vh;
+ position: relative;
+
+}
+h3 {
+    display: inline;
+}
+
+.circle-icon {
+    background: $green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+    color: white;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    background: $brown;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    justify-content: space-evenly;
+}
+
+.features {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+h1 {
+  position: absolute;
+  top: 20%;
+  bottom: 30%;
+  left: 0;
+  color: $yellow;
+  font-family: $D;
+  font-size: 115px;
+  margin:15px;
+  padding: 5px;
+}
+
+.contact h1 {
+  position: absolute;
+  top: 40%;
+  bottom: 30%;
+  left: 0;
+  color: $yellow;
+  font-family: $D;
+  font-size: 115px;
+  margin:15px;
+  padding: 5px;
+}
+
+.adventures {
+    background-color: $brown;
+    display: flex;
+    width: 100%;
+    color: white;
+    flex-direction: row;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+
+}
+.left-adv {
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.picture img {
+    -webkit-box-shadow: -22px 21px 0px 5px rgba(85,95,2,0.93);
+    -moz-box-shadow: -22px 21px 0px 5px rgba(85,95,2,0.93);
+  box-shadow: -22px 21px 0px 5px rgba(85,95,2,0.93);
+  width: 100%;
+}
+h2 {
+    font-family: $D;
+    font-size: 45px;
+    color: $yellow;
+    font-weight: regular;
+    line-height: 58px;
+    letter-spacing: 4.9px;
+    text-transform: capitalize;
+
+}
+
+p {
+    font-family: $L;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: $white;
+    text-align: left;
+}
+
+.banner img {
+  max-width: 100%; }
+
+.container {
+    display: flex;
+    background: $charcoal;
+    justify-content: center;
+    padding: 5%;
+}
+
+.gallery-img img{
+    width: 90%;
+}
+
+
+
+
+h3 {
+    font-family: $D;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: 4.3px;
+    color: $yellow;
+}
+
+.quadrant {
+background: $charcoal;
+position: relative;
+}
+
+
+
+.texts {
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.banner {
+    background: $brown;
+}
+
+.trials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $brown;
+    margin: 0;
+    padding: 5%;
+}
+.trials h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.trials p {
+    width: 70%;
+}
+
+footer {
+    background: $charcoal;
+    color: $white;
+    font-family: $L;
+    font-size: 15px;
+    text-align: center;
+    margin: -1%;
+   padding-bottom: 1%;
+   padding-top: 1%;
+   max-width: 79.85rem;
+    overflow: hidden;
+}
+
+// BLog Styles
+.comments img {
+    float: left;
+    display: block;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.box {
+    background: $brown;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.wrapper-one {
+    background: $brown;
+    width: 65%;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper-two {
+    margin-left: 40px;
+    background-color: $green;
+    width: 32%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    top: 8rem;
+
+}
+
+.aside-text h5 {
+    font-family: $D;
+    font-size: 25px;
+    margin: 0px;
+    padding: 1rem;
+}
+
+
+.aside-text p {
+    font-family: $L;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    font-weight: regular;
+    margin: 0;
+    margin-left: 20px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+
+}
+
+.aside-text li{
+    font-size: 20px;
+    font-family: $L;
+    line-height: 32px;
+    letter-spacing: 2px;
+    font-weight: regular;
+}
+
+.aside-text li::before {
+  content: "\2022";
+  color: $yellow;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.aside-image {
+    width: 100%;
+    position: relative;
+    top: -25px;
+}
+
+.gong {
+    position: relative;
+    top: -5rem;
+    left: -1rem;
+}
+
+.gong img {
+    position: relative;
+    -webkit-box-shadow: 20px 18px 0px 0px rgba(85,95,2,1);
+    -moz-box-shadow: 20px 18px 0px 0px rgba(85,95,2,1);
+    box-shadow: 20px 17px 0px 0px rgba(85,95,2,1);
+}
+
+.blogpost {
+    background: $brown;
+    border: 4px $green solid;
+    border-left: 0;
+    position: relative;
+    top: -10rem;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.blog-text {
+    padding-left: 6rem;
+    padding-bottom: 2rem;
+
+}
+.blog-text h2 {
+    margin: 0px;
+    font-size: 40px;
+}
+.blog-text h4 {
+    font-size: 20px;
+    color: $white;
+    font-family: $L;
+    font-weight: 300;
+}
+
+.comments {
+   padding-left: 5.5rem;
+   position: relative;
+   top: -8rem;
+}
+
+.comments h4 {
+    color: $white;
+}
+
+.comments h3 {
+    color: $yellow;
+    font-size: 20px;
+    font-family: $L;
+}
+
+.formz {
+    margin: 0px;
+}
+.aside-text {
+    color: $white;
+
+}
+
+form {
+    line-height: 20px;
+    padding: 20px;
+    background: none;
+    color: $yellow;
+    display: flex;
+    padding-bottom: 20px;
+  
+}
+
+ input[type=text] {
+  padding-bottom: 20px;
+  font-family: $L;
+  font-size: 20px;
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: 2px $yellow solid;
+  width: 20rem;
+  margin-bottom: 30px;
+
+ }
+textarea {
+    padding-top: 4rem;
+    margin-left: 40px;
+    background: $brown;
+    font-size: 20px;
+    color: white;
+    border: 2px $yellow solid;
+}
+ label {
+     visibility: hidden;
+ }
+.submit {
+    display: block;
+    margin: 0 auto;
+    width: 40rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.post {
+    display: block;
+    margin: 0 auto;
+    width: 40rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   max-width: 100%;
+
+}
+
+h6 {
+  position: absolute;
+  bottom: 40%;
+  color: $yellow;
+  font-family: $D;
+  font-size: 115px;
+  margin:15px;
+  padding: 5px;
+
+}
+
+
+
+// contact styles
+
+.contact {
+    background-image: url("images/contact-image.jpg");
+ background-size: cover;
+ background-position: center center;
+ min-height: 100vh;
+ position: relative;
+}
+
+.contact h1 {
+    position: absolute;
+    margin: 0px;
+
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    background: $brown;
+}
+.reds {
+    background: #262725;
+    width: 70%;
+    -webkit-box-shadow: 21px 20px 0px 8px rgba(255,198,0,1);
+    -moz-box-shadow: 21px 20px 0px 8px rgba(255,198,0,1);
+    box-shadow: 21px 20px 0px 8px rgba(255,198,0,1);
+    position: relative;
+    top: -10rem;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconss {
+    width: 45%;
+    margin-left: 40px;
+
+}
+.text-one {
+    background-color: #262725;
+    color: $white;
+    margin-right: 50px;
+    padding-left: 10px;
+    font-weight: light;
+    font-family: $L;
+    font-size: 20px;
+    text-align: left;
+}
+
+.iconss ul {
+    display: flex;
+    margin-top: 7rem;
+}
+
+.iconss li {
+    color: $yellow;
+    padding: 15px;
+}
+
+.iconss p {
+    font-family: $L;
+    color: $white;
+    font-size: 20px;
+    line-height: 2.2;
+    margin-left: 52px;
+    letter-spacing: 2px;
+    width: 200px;
+}
+
+// Media QUeries!!
+
+@media (max-width: 1120px) {
+.wrapper-two {
+    margin-left: 40px;
+    background-color: $green;
+    width: 22%;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    top: 8rem;
+
+}
+
+.aside-text h5 {
+    font-family: $D;
+    font-size: 20px;
+    margin: 0px;
+    padding: 1rem;
+}
+
+
+.aside-text p {
+    font-family: $L;
+    font-size: 10px;
+    font-weight: regular;
+    margin: 0;
+    margin-left: 20px;
+
+}
+
+.aside-text li{
+    font-size: 10px;
+    font-family: $L;
+    font-weight: regular;
+}
+.contain {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1120px;
+}
+.image {
+    width: 50%;
+    margin: 0;
+    position: relative;
+    left: -2rem;
+
+}
+
+.left-adv {
+    width: 60%;
+}
+.more {
+    padding-left: 20px;
+}
+.more h3 {
+    color: $white;
+    font-family: $L;
+    font-size: 55px;
+    font-weight: 300;
+}
+.more h4 {
+   font-family: $D;
+   color: $yellow;
+   font-size: 80px;
+   padding: 0;
+}
+h2 {
+    font-family: $D;
+    font-size: 35px;
+    color: $yellow;
+    font-weight: regular;
+    line-height: 40px;
+    letter-spacing: 2.9px;
+    text-transform: capitalize;
+
+}
+
+p {
+    font-family: $L;
+    font-weight: 300;
+    font-size: 0.9375rem;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: $white;
+    text-align: left;
+
+
+}
+
+}
+
+
+
+
+@media (max-width: 1000px) {
+.icons h3 {
+    font-size: 30px;
+    line-height: 30px;
+}
+.features li {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+button {
+    background: $green;
+    color: $white;
+    font-family: $D;
+    padding: 2px;
+    font-size: 20px;
+    border: none;
+    width: 150px;
+}
+
+.one,
+.two,
+.three,
+.four {
+    width: 45%;
+}
+
+.quadrant {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.one img {
+   width: 100%;
+   position: relative;
+  top: 20%;
+  left: 20%;
+  
+}
+.four {
+    position: relative;
+    top: -8rem;
+}
+
+.four button {
+    position: relative;
+    bottom: 0;
+    left: 20%;
+}
+
+.two,
+.four {
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+}
+
+@media (max-width: 900px) {
+
+.icons h3 {
+    font-size: 23px;
+    line-height: 2px;
+    font-weight: 300;
+}
+.index {
+    min-height: 50vh;
+}
+.image {
+    width: 50%;
+}
+
+.four {
+    position: relative;
+    top: -2rem;
+}
+.threes {
+    position: relative;
+    top:  -.5rem;
+}
+.quadrant h2 {
+    font-size: 20px;
+}
+.quadrant p {
+    font-size: 10px;
+}
+
+.quadrant {
+    margin-bottom: -1rem;
+}
+.image img {
+    width: 90%;
+     position: relative;
+    top: 2rem;
+    padding-right: 20px;
+
+}
+
+.more {
+    position: relative;
+    left: -2rem;
+    top: -4rem;
+
+}
+.more h3 {
+    color: $white;
+    font-family: $L;
+    font-size: 25px;
+    font-weight: 300;
+}
+.more h4 {
+   font-family: $D;
+   color: $yellow;
+   font-size: 50px;
+   padding: 0;
+}
+
+}
+
+@media (max-width: 760px) {
+.quadrant {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.two {
+    text-align: center;
+}
+.two p,
+.four p {
+    font-family: $L;
+    font-color: $white;
+    font-size: 15px;
+    text-align: center;
+}
+.two,
+.four {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.four h2 {
+    text-align: center;
+}
+.four button {
+    position: relative;
+    bottom: 0;
+    left: 0
+}
+ .threes img{
+     box-shadow: none;
+     margin-left: 10rem;
+ }
+
+.one img {
+    padding-top: 30px;
+    margin-left: 14rem;
+    box-shadow: none;
+}
+
+ .flexnav {
+     display: none;
+   }
+
+.flexnav label { display: block; height: 70px; width: 70px; line-height: 70px; text-align: center; color: #fff; font-size: 1.8rem; background: #000; cursor: pointer; }
+.flexnav .nav { display: none; }
+.flexnav li { width: 100%; }
+#menu-toggle:checked + .nav { display: block; }
+.flexnav label:active .nav { display: none;  }
+
+
+}

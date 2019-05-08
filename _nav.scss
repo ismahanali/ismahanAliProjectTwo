@@ -1,0 +1,72 @@
+// / Variables
+
+$green: #555f02;
+$yellow: #ffc600;
+$white: #fafffe;
+$brown: #1e140e;
+$charcoal: #262725;
+$D:'Dokdo', cursive;
+$L:'Lato', sans-serif;
+
+// styles
+nav {
+   margin-top: 10px;
+   margin-right: 33px;
+}
+nav ul {
+  display: flex;
+}
+li {
+    list-style-type: none;
+}
+
+.flexnav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+
+
+}
+
+
+a {
+    text-decoration: none;
+    text-align: center;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 20px;
+     color: $white;
+     margin: 0;
+}
+
+a:hover {
+    color: $yellow;
+}
+
+nav li {
+    margin-top: 20px;
+    padding-left: 33px;
+    flex-direction: row;
+    font-family: $L;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 1px;
+}
+
+
+h4{
+    color: $yellow;
+    justify-content: flex-start;
+    font-family: $D;
+    font-size: 41.5px;
+    font-weight: regular;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.flexnav label { display: none; }
+#menu-toggle { display: none; }
