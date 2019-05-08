@@ -829,6 +829,7 @@ textarea {
     font-size: 10px;
     line-height: -2px;
 }
+
 .wrapper-two {
     width: 95%;
    display: flex;
@@ -837,9 +838,11 @@ textarea {
    min-height: 100px;
    position: relative;
    margin-bottom: 50%;
+   height: 50rem;
 }
 .aside-image,
 .aside-text h5,
+.aside-text ul
 .aside-text p{
     text-align: center;
     font-size: 30px;
@@ -1008,6 +1011,16 @@ background-image: url("images/index-header.jpg");
 }
 
 @media (max-width: 710px) {
+.aside-image,
+.aside-text h5,
+.aside-text ul,
+.aside-text p{
+    text-align: center;
+    font-size: 30px;
+}
+.wrapper-two {
+    height: 60rem;
+}
     .box {
         display: flex;
         flex-direction: column;

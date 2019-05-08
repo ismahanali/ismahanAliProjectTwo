@@ -1005,10 +1005,12 @@ textarea {
     justify-content: center;
     min-height: 100px;
     position: relative;
-    margin-bottom: 50%; }
+    margin-bottom: 50%;
+    height: 50rem; }
   .aside-image,
   .aside-text h5,
-  .aside-text p {
+  .aside-text ul
+.aside-text p {
     text-align: center;
     font-size: 30px; }
   .aside-text p {
@@ -1179,6 +1181,14 @@ textarea {
     background: url(images/icon-check.png) no-repeat 10px 7px; } }
 
 @media (max-width: 710px) {
+  .aside-image,
+  .aside-text h5,
+  .aside-text ul,
+  .aside-text p {
+    text-align: center;
+    font-size: 30px; }
+  .wrapper-two {
+    height: 60rem; }
   .box {
     display: -webkit-box;
     display: -ms-flexbox;
